@@ -2,7 +2,8 @@
 <html>
 <body>
 <?php
-echo str_replace("world", "Dolly", "Hello world!");
+$str = "Hello world!";
+echo chunk_split($str,6,"...");
 ?>
 </body>
 </html>
