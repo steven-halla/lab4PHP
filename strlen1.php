@@ -2,7 +2,7 @@
 <html>
 <body>
 <?php
-echo lcfirst("Hello World!");
+echo strlen("Hello world!");
 ?>
 </body>
 </html>
