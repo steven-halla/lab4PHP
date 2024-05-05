@@ -2,25 +2,32 @@
 <html>
 <body>
 <?php
-echo ("Steven Halla");
-echo ("<br>");
+$name = "Steven Halla";
+$courseCode = "CIS 243";
+$courseName = "Web Development III: Introduction to PHP";
+$credits = "5.0 Credits";
 
-echo ("CIS 243");
-echo ("<br>");
+$name = str_replace("Halla", "Halla!", $name);
+$courseDetails = str_replace("PHP", "PHP 5.0", $courseName) . " " . $credits;
 
-echo ("PHP");
-
-
-echo ("<br>");
-echo ("<br>");
-
-echo "Steven Halla";
+echo $name;
 echo "<br>";
 
-echo "CIS243";
+echo $courseCode;
 echo "<br>";
 
-echo "Web Development III: Introduction to PHP 5.0 Credits";
+echo $courseDetails;
+
+echo "<br>";
+echo "<br>";
+
+echo $name;
+echo "<br>";
+
+echo $courseCode;
+echo "<br>";
+
+echo $courseDetails;
 
 ?>
 </body>
